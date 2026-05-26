@@ -56,7 +56,7 @@ def build_llm() -> ChatOpenAI:
         temperature=0.4,
         extra_body={"reasoning": {"enabled": True}},
         default_headers={
-            "HTTP-Referer": "https://github.com/baien/b2b-sales-agent",
+            "HTTP-Referer": "https://github.com/ryanisnew/B2B-Sales-Agent",
             "X-Title": "B2B-Sales-Agent",
         },
     )
